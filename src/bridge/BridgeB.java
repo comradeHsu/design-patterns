@@ -1,4 +1,8 @@
 package bridge;
 
-public class BridgeB {
+public class BridgeB implements Bridge {
+    @Override
+    public String test() {
+        return "world";
+    }
 }
